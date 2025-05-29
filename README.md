@@ -10,18 +10,37 @@
 Exploratory Data Analysis of Amazon sales data to uncover business insights, trends, and customer behavior patterns.
 
 ## 📁 Dataset
-Contains:
-- Order details (ID, date, status)
-- Product information (category, price, quantity)
-- Customer demographics
-- Payment/shipping details
+This dataset contains information on 1K+ Amazon products, including their ratings, reviews, and other details.
 
-![Dataset Head](Pictures/dataset_preview.png)
+### Features:
+
+- `product_id`: Unique identifier for each product
+- `product_name`: Name of the product
+- `category`: Category of the product
+- `discounted_price`: Discounted price of the product
+- `actual_price`: Actual price of the product
+- `discount_percentage`: Percentage of discount for the product
+- `rating`: Rating of the product (1-5)
+- `rating_count`: Number of people who voted for the Amazon rating
+- `about_product`: Description about the product
+- `user_id`: ID of the user who wrote the review
+- `user_name`: Name of the user who wrote the review
+- `review_id`: ID of the user review
+- `review_title`: Short review
+- `review_content`: Long review
+- `img_link`: Image link of the product
+- `product_link`: Official website link of the product
+
+![Dataset Head](Images/Dataset1.png)
+
+---
 
 ## 🛠️ Tech Stack
 - Python (Pandas, NumPy)
 - Visualization (Matplotlib, Seaborn)
 - Jupyter Notebook
+
+---
 
 ## 📊 Key Analysis
 1. Sales trends over time
@@ -31,12 +50,36 @@ Contains:
 5. Payment method preferences
 
 <div align="center">
-  <img src="Pictures/price.png" width="350"/>
-  <img src="Pictures/carat.png" width="350"/>
+  <img src="Images/Avg_Categories.png" width="300"/>
+  <img src="Images/Corr.png" width="300"/>
+  <img src="Images/Price.png" width="300"/>
 </div>
+<div align="center">
+  <img src="Images/Avg_Rating.png" width="300"/>
+  <img src="Images/Avg_Count.png" width="300"/>
+  <img src="Images/Top_Ratings.png" width="300"/>
+</div>
+
+---
 
 ## � How to Run
 ```bash
 git clone https://github.com/jaytamkhane/Amazon-Sales-EDA.git
 pip install -r requirements.txt
 jupyter notebook Amazon_Sales_EDA.ipynb
+```
+
+---
+### 📬 **Contact**
+
+If you have any questions or would like to collaborate, feel free to reach out to me:
+
+- LinkedIn Profile - https://www.linkedin.com/in/jay-tamkhane
+
+- Gmail : jaytamkhane161@gmail.com
+---
+
+Thank you for checking out the project! 😊
+
+---
+
